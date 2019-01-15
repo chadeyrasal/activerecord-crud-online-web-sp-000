@@ -74,6 +74,7 @@ def can_update_multiple_items_at_once
   end
   Movie.all.each do |movie|
     movie.title = 'A Movie'
+    movie.save
   end
 end
 
