@@ -7,9 +7,9 @@
 
 
 def can_be_instantiated_and_then_saved
-  movie = Movie.new
+  movie = __
   movie.title = "This is a title."
-  movie.title
+  __
 end
 
 def can_be_created_with_a_hash_of_attributes
